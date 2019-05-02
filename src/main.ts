@@ -10,7 +10,7 @@ const bot = new Telegraf(tokens.botToken);
 
 bot.start((ctx:ContextMessageUpdate)=> {ctx.reply(`
 Good day, sir!
-You want know cryptocurrency? Just type one of the next commands:
+You want know cryptocurrency rate? Just type one of the next commands:
 /btc- BTC-USD
 /eth- ETH-USD
 /ltc- LTC-USD
